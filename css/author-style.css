@@ -1,4 +1,5 @@
-/* line 1, ../scss/author-style.scss */
-body {
-  background-color: orange;
+/* Banner Section */
+/* line 7, ../scss/author-style.scss */
+.banner {
+  border-bottom: 3px solid orange;
 }
