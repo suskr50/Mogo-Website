@@ -11,6 +11,10 @@ $font-Kaushan:'Kaushan Script', cursive;
 $font-Montserrat:'Montserrat', sans-serif;
 $font-Roboto:'Roboto', sans-serif;
 
+$regular:400;
+$bold:700;
+$light:300;
+
 
 body {
 	font-size:16px;
@@ -148,7 +152,27 @@ p {
 /* Facts Section */
 
 .facts {
-	border-bottom:3px solid orange;
+	margin-top:40px;
+	background-color:$aqua-color;
+	color:$white-color;
+	font-family:$font-Montserrat;
+	.facts-wrap {
+		display:flex;
+		justify-content:space-between;
+		align-content:center;
+	}
+	p{
+		font-size:4.5rem;
+		font-weight:$bold;
+		color:$white-color;
+		line-height:0.5em;
+		text-align:center;
+	}
+	span{
+		font-weight:$regular;
+		font-size:1rem;
+		color:$white-color;
+	}
 }
 
 /* Services Section */
