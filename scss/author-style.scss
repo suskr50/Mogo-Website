@@ -1,6 +1,62 @@
+$orange-color:#f38181;
+$yellow-color:#fce38a;
+$green-color:#eaffd0;
+$aqua-color:#95e1d3;
+
+$text-color-grey:#999999;
+
+$font-Kaushan:'Kaushan Script', cursive;
+$font-Montserrat:'Montserrat', sans-serif;
+$font-Roboto:'Roboto', sans-serif;
+
+
+
 body {
+	font-size:16px;
 	
 }
+
+
+
+h2 {
+	font-size:2em;
+	font-family:$font-Montserrat;
+	text-transform:uppercase;
+}
+
+h3 {
+	font-size:1.5em;
+	font-family:$font-Kaushan;
+}
+
+p {
+	font-size:1em;
+	font-family:$font-Roboto;
+	color:$text-color-grey;
+}
+
+/* Global Classes */
+
+.content-wrap {
+	width:1024px;
+	margin:0 auto;
+}
+
+.title-wrap {
+	width:85%;
+	margin:0 auto;
+	text-align:center;
+	padding-bottom:70px;
+}
+
+.short-bar {
+	width:4em;
+	text-align:center;
+	margin:0 auto;
+	border-bottom:3px solid $orange-color;
+}
+
+
 
 /* Banner Section */
 
@@ -11,7 +67,18 @@ body {
 /* About Section */
 
 .about {
-	border-bottom:3px solid orange;
+	.about-pic {
+		ul {
+			display:flex;
+			justify-content:space-around;
+			list-style-type:none;
+			li {
+				img {
+					width:90%;
+				}
+			}
+		}		
+	}
 }
 
 /* Facts Section */
