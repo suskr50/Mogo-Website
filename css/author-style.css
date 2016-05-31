@@ -21,3 +21,27 @@
 .services {
   border-bottom: 3px solid orange;
 }
+
+/* Features Section */
+/* line 31, ../scss/author-style.scss */
+.features {
+  border-bottom: 3px solid orange;
+}
+
+/* Services2 Section */
+/* line 37, ../scss/author-style.scss */
+.services2 {
+  border-bottom: 3px solid orange;
+}
+
+/* Quote Section */
+/* line 43, ../scss/author-style.scss */
+.quote {
+  border-bottom: 3px solid orange;
+}
+
+/* Team Section */
+/* line 49, ../scss/author-style.scss */
+.team {
+  border-bottom: 3px solid orange;
+}
