@@ -45,3 +45,21 @@
 .team {
   border-bottom: 3px solid orange;
 }
+
+/* Logo Section */
+/* line 55, ../scss/author-style.scss */
+.logo {
+  border-bottom: 3px solid orange;
+}
+
+/* Work Section */
+/* line 61, ../scss/author-style.scss */
+.work {
+  border-bottom: 3px solid orange;
+}
+
+/* People Say Section */
+/* line 67, ../scss/author-style.scss */
+.people-say {
+  border-bottom: 3px solid orange;
+}
