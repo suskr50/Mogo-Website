@@ -4,11 +4,11 @@ $green-color:#eaffd0;
 $aqua-color:#95e1d3;
 
 $text-color-grey:#999999;
+$text-color-dark-grey:#333333;
 
 $font-Kaushan:'Kaushan Script', cursive;
 $font-Montserrat:'Montserrat', sans-serif;
 $font-Roboto:'Roboto', sans-serif;
-
 
 
 body {
@@ -141,7 +141,26 @@ p {
 /* Team Section */
 
 .team{
-	border-bottom:3px solid orange;
+	.team-pic {
+		display:flex;
+		justify-content:space-around;
+		align-content:center;
+		flex:row wrap;
+			}
+			figcaption {
+				padding-top:10px;
+				text-align:center;
+				font-family:$font-Roboto;
+				font-weight:400;
+				color:$text-color-dark-grey;
+				text-transform:uppercase;
+				span {
+					font-weight:300;
+					font-style:italic;
+					color:$text-color-grey;
+					text-transform:none;
+				}
+			}
 }
 
 /* Logo Section */

@@ -117,37 +117,56 @@ p {
 }
 
 /* Team Section */
-/* line 143, ../scss/author-style.scss */
-.team {
-  border-bottom: 3px solid orange;
+/* line 144, ../scss/author-style.scss */
+.team .team-pic {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex: row wrap;
+}
+/* line 150, ../scss/author-style.scss */
+.team figcaption {
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+}
+/* line 157, ../scss/author-style.scss */
+.team figcaption span {
+  font-weight: 300;
+  font-style: italic;
+  color: #999999;
+  text-transform: none;
 }
 
 /* Logo Section */
-/* line 149, ../scss/author-style.scss */
+/* line 168, ../scss/author-style.scss */
 .logo {
   border-bottom: 3px solid orange;
 }
 
 /* Work Section */
-/* line 155, ../scss/author-style.scss */
+/* line 174, ../scss/author-style.scss */
 .work {
   border-bottom: 3px solid orange;
 }
 
 /* People Say Section */
-/* line 161, ../scss/author-style.scss */
+/* line 180, ../scss/author-style.scss */
 .people-say {
   border-bottom: 3px solid orange;
 }
 
 /* Blog Section */
-/* line 167, ../scss/author-style.scss */
+/* line 186, ../scss/author-style.scss */
 .blog {
   border-bottom: 3px solid orange;
 }
 
 /* Map Section */
-/* line 173, ../scss/author-style.scss */
+/* line 192, ../scss/author-style.scss */
 .map {
   border-bottom: 3px solid orange;
 }
