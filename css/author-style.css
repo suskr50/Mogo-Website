@@ -144,7 +144,7 @@ p {
 /* Logo Section */
 /* line 168, ../scss/author-style.scss */
 .logo {
-  border-bottom: 3px solid orange;
+  margin: 0 auto;
 }
 
 /* Work Section */
