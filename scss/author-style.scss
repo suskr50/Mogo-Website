@@ -166,7 +166,7 @@ p {
 /* Logo Section */
 
 .logo{
-	margin:0 auto;
+	
 }
 
 /* Work Section */
@@ -178,7 +178,32 @@ p {
 /* People Say Section */
 
 .people-say{
-	border-bottom:3px solid orange;
+	 background: #ffffff url("../images/say-background.jpg") no-repeat center;
+	 background-size:cover;
+	 width:100%;
+	height:841px;
+	padding-top:90px;
+
+	.short-bar-left {
+		width:4em;
+	
+	border-bottom:3px solid $orange-color;
+	}
+
+	.people-say-wrap {
+		display:flex;
+		justify-content:space-around;
+		align-content:center;
+	}
+	.people-say-pic {
+		float:left;
+		width:20%;
+	}
+	.people-say-text {
+		float:right;
+		width:70%;
+		margin:0 10px;
+	}
 }
 
 /* Blog Section */

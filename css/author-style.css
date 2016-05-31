@@ -142,11 +142,6 @@ p {
 }
 
 /* Logo Section */
-/* line 168, ../scss/author-style.scss */
-.logo {
-  margin: 0 auto;
-}
-
 /* Work Section */
 /* line 174, ../scss/author-style.scss */
 .work {
@@ -156,17 +151,43 @@ p {
 /* People Say Section */
 /* line 180, ../scss/author-style.scss */
 .people-say {
-  border-bottom: 3px solid orange;
+  background: #ffffff url("../images/say-background.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 841px;
+  padding-top: 90px;
+}
+/* line 187, ../scss/author-style.scss */
+.people-say .short-bar-left {
+  width: 4em;
+  border-bottom: 3px solid #f38181;
+}
+/* line 193, ../scss/author-style.scss */
+.people-say .people-say-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+/* line 198, ../scss/author-style.scss */
+.people-say .people-say-pic {
+  float: left;
+  width: 20%;
+}
+/* line 202, ../scss/author-style.scss */
+.people-say .people-say-text {
+  float: right;
+  width: 70%;
+  margin: 0 10px;
 }
 
 /* Blog Section */
-/* line 186, ../scss/author-style.scss */
+/* line 211, ../scss/author-style.scss */
 .blog {
   border-bottom: 3px solid orange;
 }
 
 /* Map Section */
-/* line 192, ../scss/author-style.scss */
+/* line 217, ../scss/author-style.scss */
 .map {
   border-bottom: 3px solid orange;
 }
