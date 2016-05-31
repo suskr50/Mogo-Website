@@ -3,3 +3,9 @@
 .banner {
   border-bottom: 3px solid orange;
 }
+
+/* About Section */
+/* line 13, ../scss/author-style.scss */
+.about {
+  border-bottom: 3px solid orange;
+}
