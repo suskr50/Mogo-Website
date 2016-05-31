@@ -97,53 +97,57 @@ p {
 /* Features Section */
 /* line 120, ../scss/author-style.scss */
 .features {
-  border-bottom: 3px solid orange;
+  background: #ffffff url("../images/feature-background.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 941px;
+  padding-top: 90px;
 }
 
 /* Services2 Section */
-/* line 126, ../scss/author-style.scss */
+/* line 131, ../scss/author-style.scss */
 .services2 {
   border-bottom: 3px solid orange;
 }
 
 /* Quote Section */
-/* line 132, ../scss/author-style.scss */
+/* line 137, ../scss/author-style.scss */
 .quote {
   border-bottom: 3px solid orange;
 }
 
 /* Team Section */
-/* line 138, ../scss/author-style.scss */
+/* line 143, ../scss/author-style.scss */
 .team {
   border-bottom: 3px solid orange;
 }
 
 /* Logo Section */
-/* line 144, ../scss/author-style.scss */
+/* line 149, ../scss/author-style.scss */
 .logo {
   border-bottom: 3px solid orange;
 }
 
 /* Work Section */
-/* line 150, ../scss/author-style.scss */
+/* line 155, ../scss/author-style.scss */
 .work {
   border-bottom: 3px solid orange;
 }
 
 /* People Say Section */
-/* line 156, ../scss/author-style.scss */
+/* line 161, ../scss/author-style.scss */
 .people-say {
   border-bottom: 3px solid orange;
 }
 
 /* Blog Section */
-/* line 162, ../scss/author-style.scss */
+/* line 167, ../scss/author-style.scss */
 .blog {
   border-bottom: 3px solid orange;
 }
 
 /* Map Section */
-/* line 168, ../scss/author-style.scss */
+/* line 173, ../scss/author-style.scss */
 .map {
   border-bottom: 3px solid orange;
 }
