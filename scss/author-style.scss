@@ -215,7 +215,19 @@ p {
 /* Map Section */
 
 .map{
-	border-bottom:3px solid orange;
+	 background: #ffffff url("../images/map-background.jpg") no-repeat center;
+	 background-size:cover;
+	 width:100%;
+	height:200px;
+	padding-top:90px;
+	color:$orange-color;
+	text-align:center;
+
+	h3 {
+		font-family:$font-Montserrat;
+		font-weight:700;
+		text-transform:uppercase;
+	}
 }
 
 /* Footer Section */

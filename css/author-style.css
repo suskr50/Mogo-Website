@@ -189,7 +189,19 @@ p {
 /* Map Section */
 /* line 217, ../scss/author-style.scss */
 .map {
-  border-bottom: 3px solid orange;
+  background: #ffffff url("../images/map-background.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  padding-top: 90px;
+  color: #f38181;
+  text-align: center;
+}
+/* line 226, ../scss/author-style.scss */
+.map h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 /* Footer Section */
