@@ -9,3 +9,15 @@
 .about {
   border-bottom: 3px solid orange;
 }
+
+/* Facts Section */
+/* line 19, ../scss/author-style.scss */
+.facts {
+  border-bottom: 3px solid orange;
+}
+
+/* Services Section */
+/* line 25, ../scss/author-style.scss */
+.services {
+  border-bottom: 3px solid orange;
+}
