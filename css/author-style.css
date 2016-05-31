@@ -71,61 +71,79 @@ p {
 }
 
 /* Services Section */
-/* line 92, ../scss/author-style.scss */
-.services {
-  border-bottom: 3px solid orange;
+/* line 94, ../scss/author-style.scss */
+.services .services-detail-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex: row wrap;
+}
+/* line 102, ../scss/author-style.scss */
+.services .services-details {
+  padding-bottom: 20px;
+}
+/* line 104, ../scss/author-style.scss */
+.services .services-details .services-pic {
+  float: left;
+  margin-right: 3px;
+  margin-top: 1em;
+}
+/* line 110, ../scss/author-style.scss */
+.services .services-details .services-text {
+  width: 80%;
+  float: right;
 }
 
 /* Features Section */
-/* line 98, ../scss/author-style.scss */
+/* line 120, ../scss/author-style.scss */
 .features {
   border-bottom: 3px solid orange;
 }
 
 /* Services2 Section */
-/* line 104, ../scss/author-style.scss */
+/* line 126, ../scss/author-style.scss */
 .services2 {
   border-bottom: 3px solid orange;
 }
 
 /* Quote Section */
-/* line 110, ../scss/author-style.scss */
+/* line 132, ../scss/author-style.scss */
 .quote {
   border-bottom: 3px solid orange;
 }
 
 /* Team Section */
-/* line 116, ../scss/author-style.scss */
+/* line 138, ../scss/author-style.scss */
 .team {
   border-bottom: 3px solid orange;
 }
 
 /* Logo Section */
-/* line 122, ../scss/author-style.scss */
+/* line 144, ../scss/author-style.scss */
 .logo {
   border-bottom: 3px solid orange;
 }
 
 /* Work Section */
-/* line 128, ../scss/author-style.scss */
+/* line 150, ../scss/author-style.scss */
 .work {
   border-bottom: 3px solid orange;
 }
 
 /* People Say Section */
-/* line 134, ../scss/author-style.scss */
+/* line 156, ../scss/author-style.scss */
 .people-say {
   border-bottom: 3px solid orange;
 }
 
 /* Blog Section */
-/* line 140, ../scss/author-style.scss */
+/* line 162, ../scss/author-style.scss */
 .blog {
   border-bottom: 3px solid orange;
 }
 
 /* Map Section */
-/* line 146, ../scss/author-style.scss */
+/* line 168, ../scss/author-style.scss */
 .map {
   border-bottom: 3px solid orange;
 }

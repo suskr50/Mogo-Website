@@ -90,7 +90,29 @@ p {
 /* Services Section */
 
 .services{
-	border-bottom:3px solid orange;
+	
+	.services-detail-wrap {
+		display:flex;
+		justify-content:space-around;
+		align-content:center;
+		flex: row wrap;
+
+		
+	}
+	.services-details{
+		padding-bottom:20px;
+		.services-pic {
+			float:left;
+			margin-right:3px;
+		
+			margin-top:1em;
+		}
+		.services-text {
+			width:80%;
+			float:right;
+		}
+}
+	
 }
 
 /* Features Section */
