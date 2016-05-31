@@ -63,3 +63,9 @@
 .people-say {
   border-bottom: 3px solid orange;
 }
+
+/* Blog Section */
+/* line 73, ../scss/author-style.scss */
+.blog {
+  border-bottom: 3px solid orange;
+}
