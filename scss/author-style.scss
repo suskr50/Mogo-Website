@@ -66,6 +66,11 @@ p {
 	border-bottom:3px solid $orange-color;
 }
 
+.short-bar-left {
+	width:4em;
+	border-bottom:3px solid $orange-color;
+}
+
 
 
 /* Banner Section */
@@ -223,7 +228,17 @@ p {
 /* Quote Section */
 
 .quote{
-	border-bottom:3px solid orange;
+	margin:150px 0;
+	img {
+		float:left;
+		width:200px;
+		height:auto;
+	}
+	.quote-text {
+		width:65%;
+		float:right;
+	}
+	
 }
 
 /* Team Section */
@@ -260,7 +275,14 @@ p {
 /* Work Section */
 
 .work{
-	border-bottom:3px solid orange;
+	width:100%;
+	.work-pic {
+		display:flex;
+		justify-content:center;
+		
+	}
+
+
 }
 
 /* People Say Section */
@@ -272,11 +294,7 @@ p {
 	height:841px;
 	padding-top:90px;
 
-	.short-bar-left {
-		width:4em;
 	
-	border-bottom:3px solid $orange-color;
-	}
 
 	.people-say-wrap {
 		display:flex;
