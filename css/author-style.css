@@ -1,22 +1,22 @@
-/* line 14, ../scss/author-style.scss */
+/* line 15, ../scss/author-style.scss */
 body {
   font-size: 16px;
 }
 
-/* line 21, ../scss/author-style.scss */
+/* line 22, ../scss/author-style.scss */
 h2 {
   font-size: 2em;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
 }
 
-/* line 27, ../scss/author-style.scss */
+/* line 28, ../scss/author-style.scss */
 h3 {
   font-size: 1.5em;
   font-family: "Kaushan Script", cursive;
 }
 
-/* line 32, ../scss/author-style.scss */
+/* line 34, ../scss/author-style.scss */
 p {
   font-size: 1em;
   font-family: "Roboto", sans-serif;
@@ -24,13 +24,18 @@ p {
 }
 
 /* Global Classes */
-/* line 40, ../scss/author-style.scss */
+/* line 42, ../scss/author-style.scss */
+.clear-fix {
+  clear: both;
+}
+
+/* line 46, ../scss/author-style.scss */
 .content-wrap {
   width: 1024px;
   margin: 0 auto;
 }
 
-/* line 45, ../scss/author-style.scss */
+/* line 51, ../scss/author-style.scss */
 .title-wrap {
   width: 85%;
   margin: 0 auto;
@@ -38,7 +43,7 @@ p {
   padding-bottom: 70px;
 }
 
-/* line 52, ../scss/author-style.scss */
+/* line 58, ../scss/author-style.scss */
 .short-bar {
   width: 4em;
   text-align: center;
@@ -47,55 +52,108 @@ p {
 }
 
 /* Banner Section */
-/* line 63, ../scss/author-style.scss */
+/* line 69, ../scss/author-style.scss */
 .banner {
-  border-bottom: 3px solid orange;
+  background: #ffffff url("../images/banner-background.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+  color: #ffffff;
+}
+/* line 78, ../scss/author-style.scss */
+.banner .title-wrap {
+  padding-bottom: none;
+}
+/* line 82, ../scss/author-style.scss */
+.banner .banner-wrap {
+  text-align: center;
+}
+/* line 88, ../scss/author-style.scss */
+.banner nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 92, ../scss/author-style.scss */
+.banner nav ul {
+  list-style-type: none;
+  float: right;
+  margin-top: -100px;
+}
+/* line 98, ../scss/author-style.scss */
+.banner nav li {
+  padding-left: 20px;
+  display: inline;
+}
+/* line 104, ../scss/author-style.scss */
+.banner h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 9.375em;
+  text-transform: uppercase;
+  line-height: 0.5em;
+}
+/* line 111, ../scss/author-style.scss */
+.banner h2 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 4.8em;
+  text-transform: none;
+  font-weight: 400;
+}
+/* line 119, ../scss/author-style.scss */
+.banner .short-bar {
+  color: #ffffff;
+}
+/* line 123, ../scss/author-style.scss */
+.banner button {
+  margin-top: 10px;
+  border: 1px solid #ffffff;
+  padding: 10px;
 }
 
 /* About Section */
-/* line 71, ../scss/author-style.scss */
+/* line 135, ../scss/author-style.scss */
 .about .about-pic ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
 }
-/* line 76, ../scss/author-style.scss */
+/* line 140, ../scss/author-style.scss */
 .about .about-pic ul li img {
   width: 90%;
 }
 
 /* Facts Section */
-/* line 86, ../scss/author-style.scss */
+/* line 150, ../scss/author-style.scss */
 .facts {
   border-bottom: 3px solid orange;
 }
 
 /* Services Section */
-/* line 94, ../scss/author-style.scss */
+/* line 158, ../scss/author-style.scss */
 .services .services-detail-wrap {
   display: flex;
   justify-content: space-around;
   align-content: center;
   flex: row wrap;
 }
-/* line 102, ../scss/author-style.scss */
+/* line 166, ../scss/author-style.scss */
 .services .services-details {
   padding-bottom: 20px;
 }
-/* line 104, ../scss/author-style.scss */
+/* line 168, ../scss/author-style.scss */
 .services .services-details .services-pic {
   float: left;
   margin-right: 3px;
   margin-top: 1em;
 }
-/* line 110, ../scss/author-style.scss */
+/* line 174, ../scss/author-style.scss */
 .services .services-details .services-text {
   width: 80%;
   float: right;
 }
 
 /* Features Section */
-/* line 120, ../scss/author-style.scss */
+/* line 184, ../scss/author-style.scss */
 .features {
   background: #ffffff url("../images/feature-background.jpg") no-repeat center;
   background-size: cover;
@@ -105,26 +163,26 @@ p {
 }
 
 /* Services2 Section */
-/* line 131, ../scss/author-style.scss */
+/* line 195, ../scss/author-style.scss */
 .services2 {
   border-bottom: 3px solid orange;
 }
 
 /* Quote Section */
-/* line 137, ../scss/author-style.scss */
+/* line 201, ../scss/author-style.scss */
 .quote {
   border-bottom: 3px solid orange;
 }
 
 /* Team Section */
-/* line 144, ../scss/author-style.scss */
+/* line 208, ../scss/author-style.scss */
 .team .team-pic {
   display: flex;
   justify-content: space-around;
   align-content: center;
   flex: row wrap;
 }
-/* line 150, ../scss/author-style.scss */
+/* line 214, ../scss/author-style.scss */
 .team figcaption {
   padding-top: 10px;
   text-align: center;
@@ -133,7 +191,7 @@ p {
   color: #333333;
   text-transform: uppercase;
 }
-/* line 157, ../scss/author-style.scss */
+/* line 221, ../scss/author-style.scss */
 .team figcaption span {
   font-weight: 300;
   font-style: italic;
@@ -143,13 +201,13 @@ p {
 
 /* Logo Section */
 /* Work Section */
-/* line 174, ../scss/author-style.scss */
+/* line 238, ../scss/author-style.scss */
 .work {
   border-bottom: 3px solid orange;
 }
 
 /* People Say Section */
-/* line 180, ../scss/author-style.scss */
+/* line 244, ../scss/author-style.scss */
 .people-say {
   background: #ffffff url("../images/say-background.jpg") no-repeat center;
   background-size: cover;
@@ -157,23 +215,23 @@ p {
   height: 841px;
   padding-top: 90px;
 }
-/* line 187, ../scss/author-style.scss */
+/* line 251, ../scss/author-style.scss */
 .people-say .short-bar-left {
   width: 4em;
   border-bottom: 3px solid #f38181;
 }
-/* line 193, ../scss/author-style.scss */
+/* line 257, ../scss/author-style.scss */
 .people-say .people-say-wrap {
   display: flex;
   justify-content: space-around;
   align-content: center;
 }
-/* line 198, ../scss/author-style.scss */
+/* line 262, ../scss/author-style.scss */
 .people-say .people-say-pic {
   float: left;
   width: 20%;
 }
-/* line 202, ../scss/author-style.scss */
+/* line 266, ../scss/author-style.scss */
 .people-say .people-say-text {
   float: right;
   width: 70%;
@@ -181,13 +239,13 @@ p {
 }
 
 /* Blog Section */
-/* line 211, ../scss/author-style.scss */
+/* line 275, ../scss/author-style.scss */
 .blog {
   border-bottom: 3px solid orange;
 }
 
 /* Map Section */
-/* line 217, ../scss/author-style.scss */
+/* line 281, ../scss/author-style.scss */
 .map {
   background: #ffffff url("../images/map-background.jpg") no-repeat center;
   background-size: cover;
@@ -197,7 +255,7 @@ p {
   color: #f38181;
   text-align: center;
 }
-/* line 226, ../scss/author-style.scss */
+/* line 290, ../scss/author-style.scss */
 .map h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;

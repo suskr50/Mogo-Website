@@ -2,6 +2,7 @@ $orange-color:#f38181;
 $yellow-color:#fce38a;
 $green-color:#eaffd0;
 $aqua-color:#95e1d3;
+$white-color:#ffffff;
 
 $text-color-grey:#999999;
 $text-color-dark-grey:#333333;
@@ -27,6 +28,7 @@ h2 {
 h3 {
 	font-size:1.5em;
 	font-family:$font-Kaushan;
+	
 }
 
 p {
@@ -36,6 +38,10 @@ p {
 }
 
 /* Global Classes */
+
+.clear-fix {
+	clear:both;
+}
 
 .content-wrap {
 	width:1024px;
@@ -61,7 +67,65 @@ p {
 /* Banner Section */
 
 .banner {
-	border-bottom:3px solid orange;
+	 background: #ffffff url("../images/banner-background.jpg") no-repeat center;
+	 background-size:cover;
+	 width:100%;
+	 height:1000px;
+	
+
+	color:$white-color;
+
+	.title-wrap {
+		padding-bottom:none;
+	}
+
+	.banner-wrap {
+		text-align:center;
+	}
+
+	nav {
+
+		a {
+			text-decoration:none;
+			color:$white-color;
+		}
+		ul {
+			list-style-type:none;
+			float:right;
+			margin-top:-100px;
+
+		}
+		li {
+			padding-left:20px;
+			display:inline;
+		}
+	}
+
+	h1 {
+		font-family:$font-Montserrat;
+		font-weight:700;
+		font-size:9.375em;
+		text-transform:uppercase;
+		line-height:0.5em;
+	}
+	h2 {
+		font-family:$font-Kaushan;
+		font-size:4.8em;
+		text-transform:none;
+		font-weight:400;
+
+	}
+
+	.short-bar {
+		color:$white-color;
+	}
+
+	button {
+		margin-top:10px;
+		border:1px solid $white-color;
+		padding:10px;
+
+	}
 }
 
 /* About Section */
