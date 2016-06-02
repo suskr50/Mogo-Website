@@ -41,9 +41,10 @@ p {
   margin: 0 auto;
   text-align: center;
   padding-bottom: 70px;
+  margin-top: 100px;
 }
 
-/* line 62, ../scss/author-style.scss */
+/* line 63, ../scss/author-style.scss */
 .short-bar {
   width: 4em;
   text-align: center;
@@ -51,14 +52,23 @@ p {
   border-bottom: 3px solid #f38181;
 }
 
-/* line 69, ../scss/author-style.scss */
+/* line 70, ../scss/author-style.scss */
 .short-bar-left {
   width: 4em;
   border-bottom: 3px solid #f38181;
 }
 
+/* line 75, ../scss/author-style.scss */
+.short-bar-white {
+  width: 4em;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 3px solid #ffffff;
+  margin-bottom: 60px;
+}
+
 /* Banner Section */
-/* line 78, ../scss/author-style.scss */
+/* line 87, ../scss/author-style.scss */
 .banner {
   background: #ffffff url("../images/banner-background.jpg") no-repeat center;
   background-size: cover;
@@ -66,83 +76,97 @@ p {
   height: 1000px;
   color: #ffffff;
 }
-/* line 87, ../scss/author-style.scss */
-.banner .title-wrap {
-  padding-bottom: none;
-}
-/* line 91, ../scss/author-style.scss */
+/* line 95, ../scss/author-style.scss */
 .banner .banner-wrap {
   text-align: center;
+  margin-top: 100px;
 }
-/* line 97, ../scss/author-style.scss */
-.banner nav a {
-  text-decoration: none;
-  color: #ffffff;
-}
-/* line 101, ../scss/author-style.scss */
-.banner nav ul {
-  list-style-type: none;
-  float: right;
-  margin-top: -100px;
-}
-/* line 107, ../scss/author-style.scss */
-.banner nav li {
-  padding-left: 20px;
-  display: inline;
-}
-/* line 113, ../scss/author-style.scss */
-.banner h1 {
+/* line 99, ../scss/author-style.scss */
+.banner .banner-wrap h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 9.375em;
   text-transform: uppercase;
-  line-height: 0.5em;
+  line-height: 0.3em;
 }
-/* line 120, ../scss/author-style.scss */
-.banner h2 {
+/* line 107, ../scss/author-style.scss */
+.banner .banner-wrap h2 {
   font-family: "Kaushan Script", cursive;
   font-size: 4.8em;
   text-transform: none;
   font-weight: 400;
 }
-/* line 128, ../scss/author-style.scss */
-.banner .short-bar {
+/* line 116, ../scss/author-style.scss */
+.banner .banner-wrap a {
+  border: 2px solid #ffffff;
+  padding: 15px;
+  text-decoration: none;
   color: #ffffff;
 }
-/* line 132, ../scss/author-style.scss */
-.banner button {
-  margin-top: 10px;
-  border: 1px solid #ffffff;
-  padding: 10px;
+/* line 128, ../scss/author-style.scss */
+.banner nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/* line 136, ../scss/author-style.scss */
+.banner nav a:hover {
+  color: #fce38a;
+  border-bottom: 2px solid #fce38a;
+  padding-bottom: 5px;
+}
+/* line 141, ../scss/author-style.scss */
+.banner nav ul {
+  list-style-type: none;
+  float: right;
+  margin-top: 2em;
+}
+/* line 147, ../scss/author-style.scss */
+.banner nav li {
+  padding-left: 20px;
+  display: inline;
+}
+/* line 152, ../scss/author-style.scss */
+.banner nav .logo {
+  float: left;
+  width: 40%;
+}
+/* line 156, ../scss/author-style.scss */
+.banner nav .logo h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 /* About Section */
-/* line 144, ../scss/author-style.scss */
+/* line 170, ../scss/author-style.scss */
 .about .about-pic ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
 }
-/* line 149, ../scss/author-style.scss */
+/* line 175, ../scss/author-style.scss */
 .about .about-pic ul li img {
   width: 90%;
 }
 
 /* Facts Section */
-/* line 159, ../scss/author-style.scss */
+/* line 185, ../scss/author-style.scss */
 .facts {
   margin-top: 40px;
   background-color: #95e1d3;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
 }
-/* line 164, ../scss/author-style.scss */
+/* line 190, ../scss/author-style.scss */
 .facts .facts-wrap {
   display: flex;
   justify-content: space-between;
   align-content: center;
 }
-/* line 169, ../scss/author-style.scss */
+/* line 195, ../scss/author-style.scss */
 .facts p {
   font-size: 4.5rem;
   font-weight: 700;
@@ -150,7 +174,7 @@ p {
   line-height: 0.5em;
   text-align: center;
 }
-/* line 176, ../scss/author-style.scss */
+/* line 202, ../scss/author-style.scss */
 .facts span {
   font-weight: 400;
   font-size: 1rem;
@@ -158,31 +182,31 @@ p {
 }
 
 /* Services Section */
-/* line 187, ../scss/author-style.scss */
+/* line 213, ../scss/author-style.scss */
 .services .services-detail-wrap {
   display: flex;
   justify-content: space-around;
   align-content: center;
   flex: row wrap;
 }
-/* line 195, ../scss/author-style.scss */
+/* line 221, ../scss/author-style.scss */
 .services .services-details {
   padding-bottom: 20px;
 }
-/* line 197, ../scss/author-style.scss */
+/* line 223, ../scss/author-style.scss */
 .services .services-details .services-pic {
   float: left;
   margin-right: 3px;
   margin-top: 1em;
 }
-/* line 203, ../scss/author-style.scss */
+/* line 229, ../scss/author-style.scss */
 .services .services-details .services-text {
   width: 80%;
   float: right;
 }
 
 /* Features Section */
-/* line 213, ../scss/author-style.scss */
+/* line 239, ../scss/author-style.scss */
 .features {
   background: #ffffff url("../images/feature-background.jpg") no-repeat center;
   background-size: cover;
@@ -192,37 +216,37 @@ p {
 }
 
 /* Services2 Section */
-/* line 224, ../scss/author-style.scss */
+/* line 250, ../scss/author-style.scss */
 .services2 {
   border-bottom: 3px solid orange;
 }
 
 /* Quote Section */
-/* line 230, ../scss/author-style.scss */
+/* line 256, ../scss/author-style.scss */
 .quote {
   margin: 150px 0;
 }
-/* line 232, ../scss/author-style.scss */
+/* line 258, ../scss/author-style.scss */
 .quote img {
   float: left;
   width: 200px;
   height: auto;
 }
-/* line 237, ../scss/author-style.scss */
+/* line 263, ../scss/author-style.scss */
 .quote .quote-text {
   width: 65%;
   float: right;
 }
 
 /* Team Section */
-/* line 247, ../scss/author-style.scss */
+/* line 273, ../scss/author-style.scss */
 .team .team-pic {
   display: flex;
   justify-content: space-around;
   align-content: center;
   flex: row wrap;
 }
-/* line 253, ../scss/author-style.scss */
+/* line 279, ../scss/author-style.scss */
 .team figcaption {
   padding-top: 10px;
   text-align: center;
@@ -231,7 +255,7 @@ p {
   color: #333333;
   text-transform: uppercase;
 }
-/* line 260, ../scss/author-style.scss */
+/* line 286, ../scss/author-style.scss */
 .team figcaption span {
   font-weight: 300;
   font-style: italic;
@@ -241,18 +265,14 @@ p {
 
 /* Logo Section */
 /* Work Section */
-/* line 277, ../scss/author-style.scss */
-.work {
-  width: 100%;
-}
-/* line 279, ../scss/author-style.scss */
+/* line 305, ../scss/author-style.scss */
 .work .work-pic {
   display: flex;
   justify-content: center;
 }
 
 /* People Say Section */
-/* line 290, ../scss/author-style.scss */
+/* line 316, ../scss/author-style.scss */
 .people-say {
   background: #ffffff url("../images/say-background.jpg") no-repeat center;
   background-size: cover;
@@ -260,18 +280,18 @@ p {
   height: 841px;
   padding-top: 90px;
 }
-/* line 299, ../scss/author-style.scss */
+/* line 325, ../scss/author-style.scss */
 .people-say .people-say-wrap {
   display: flex;
   justify-content: space-around;
   align-content: center;
 }
-/* line 304, ../scss/author-style.scss */
+/* line 330, ../scss/author-style.scss */
 .people-say .people-say-pic {
   float: left;
   width: 20%;
 }
-/* line 308, ../scss/author-style.scss */
+/* line 334, ../scss/author-style.scss */
 .people-say .people-say-text {
   float: right;
   width: 70%;
@@ -279,13 +299,63 @@ p {
 }
 
 /* Blog Section */
-/* line 317, ../scss/author-style.scss */
+/* line 343, ../scss/author-style.scss */
 .blog {
-  border-bottom: 3px solid orange;
+  margin-bottom: 50px;
+}
+/* line 346, ../scss/author-style.scss */
+.blog .blog-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 353, ../scss/author-style.scss */
+.blog .blog-detail {
+  width: 30%;
+}
+/* line 357, ../scss/author-style.scss */
+.blog .blog-pix1 {
+  background: #ffffff url("../images/latest-blog1.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+/* line 364, ../scss/author-style.scss */
+.blog .blog-pix2 {
+  background: #ffffff url("../images/latest-blog2.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+/* line 371, ../scss/author-style.scss */
+.blog .blog-pix3 {
+  background: #ffffff url("../images/latest-blog3.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+/* line 377, ../scss/author-style.scss */
+.blog .date-block {
+  background-color: #95e1d3;
+  text-align: center;
+  height: 66px;
+  width: 66px;
+  position: relative;
+  top: 120px;
+  left: -10px;
+}
+/* line 387, ../scss/author-style.scss */
+.blog ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+/* line 390, ../scss/author-style.scss */
+.blog ul li {
+  display: inline;
+  padding-right: 10px;
 }
 
 /* Map Section */
-/* line 323, ../scss/author-style.scss */
+/* line 399, ../scss/author-style.scss */
 .map {
   background: #ffffff url("../images/map-background.jpg") no-repeat center;
   background-size: cover;
@@ -295,7 +365,7 @@ p {
   color: #f38181;
   text-align: center;
 }
-/* line 332, ../scss/author-style.scss */
+/* line 408, ../scss/author-style.scss */
 .map h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -303,3 +373,82 @@ p {
 }
 
 /* Footer Section */
+/* line 417, ../scss/author-style.scss */
+footer {
+  margin-top: 50px;
+}
+/* line 420, ../scss/author-style.scss */
+footer .footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/* line 425, ../scss/author-style.scss */
+footer .footer-wrap h1 {
+  font-size: 2.875rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+/* line 431, ../scss/author-style.scss */
+footer .footer-wrap .followers {
+  color: #333333;
+}
+/* line 436, ../scss/author-style.scss */
+footer .footer1 {
+  color: #999999;
+}
+/* line 438, ../scss/author-style.scss */
+footer .footer1 input[type="submit"] {
+  color: #ffffff;
+  background-color: #95e1d3;
+  padding: 3px;
+  margin-left: -4px;
+  border: 1px solid #95e1d3;
+  width: 40%;
+  text-transform: uppercase;
+}
+/* line 449, ../scss/author-style.scss */
+footer .footer1,
+footer .footer2,
+footer .footer3 {
+  width: 30%;
+}
+/* line 456, ../scss/author-style.scss */
+footer .social-media ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+/* line 459, ../scss/author-style.scss */
+footer .social-media ul li {
+  display: inline;
+  padding-right: 10px;
+}
+/* line 468, ../scss/author-style.scss */
+footer .footer2 .footer-blog {
+  color: #333333;
+}
+/* line 470, ../scss/author-style.scss */
+footer .footer2 .footer-blog .blog-pic {
+  float: left;
+  width: 20%;
+}
+/* line 474, ../scss/author-style.scss */
+footer .footer2 .footer-blog .blog-pic img {
+  width: 100%;
+  margin-top: 1em;
+}
+/* line 479, ../scss/author-style.scss */
+footer .footer2 .footer-blog .blog-text {
+  float: right;
+  width: 75%;
+}
+/* line 482, ../scss/author-style.scss */
+footer .footer2 .footer-blog .blog-text .date {
+  color: #999999;
+}
+/* line 489, ../scss/author-style.scss */
+footer .copyright {
+  margin-top: 10px;
+  text-align: center;
+  border-top: 1px solid #999999;
+}

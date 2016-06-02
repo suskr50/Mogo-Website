@@ -57,6 +57,7 @@ p {
 	margin:0 auto;
 	text-align:center;
 	padding-bottom:70px;
+	margin-top:100px;
 }
 
 .short-bar {
@@ -71,6 +72,14 @@ p {
 	border-bottom:3px solid $orange-color;
 }
 
+.short-bar-white {
+	width:4em;
+	text-align:center;
+	margin:0 auto;
+	border-bottom:3px solid $white-color;
+	margin-bottom:60px;
+}
+
 
 
 /* Banner Section */
@@ -80,61 +89,78 @@ p {
 	 background-size:cover;
 	 width:100%;
 	 height:1000px;
-	
 
-	color:$white-color;
+	 color:$white-color;
 
-	.title-wrap {
-		padding-bottom:none;
-	}
+	 .banner-wrap {
+	 	text-align:center;
+	 	margin-top:100px;
 
-	.banner-wrap {
-		text-align:center;
-	}
+	 	h1 {
+	 		font-family:$font-Montserrat;
+	 		font-weight:700;
+	 		font-size:9.375em;
+	 		text-transform:uppercase;
+	 		line-height:0.3em;
+	 	}
+
+	 	h2 {
+	 		font-family:$font-Kaushan;
+	 		font-size:4.8em;
+	 		text-transform:none;
+	 		font-weight:400;
+	 	}
+
+	 	
+
+	 	a {
+	 		
+	 		border:2px solid $white-color;
+	 		padding:15px;
+	 		text-decoration:none;
+	 		color:$white-color;
+	 	}
+
+	 }
 
 	nav {
 
 		a {
 			text-decoration:none;
 			color:$white-color;
+			font-family:$font-Montserrat;
+			font-weight:$regular;
+			text-transform: uppercase;
+		}
+
+		a:hover {
+			color:$yellow-color;
+			border-bottom: 2px solid $yellow-color;
+			padding-bottom:5px;
 		}
 		ul {
 			list-style-type:none;
 			float:right;
-			margin-top:-100px;
-
+			margin-top:2em;
+			
 		}
 		li {
 			padding-left:20px;
 			display:inline;
 		}
+
+		.logo {
+			float:left;
+			width:40%;
+
+			h1 {
+				font-family:$font-Montserrat;
+				font-weight:700;
+				text-transform:uppercase;
+			}	
+		}
 	}
 
-	h1 {
-		font-family:$font-Montserrat;
-		font-weight:700;
-		font-size:9.375em;
-		text-transform:uppercase;
-		line-height:0.5em;
-	}
-	h2 {
-		font-family:$font-Kaushan;
-		font-size:4.8em;
-		text-transform:none;
-		font-weight:400;
-
-	}
-
-	.short-bar {
-		color:$white-color;
-	}
-
-	button {
-		margin-top:10px;
-		border:1px solid $white-color;
-		padding:10px;
-
-	}
 }
 
 /* About Section */
@@ -275,7 +301,7 @@ p {
 /* Work Section */
 
 .work{
-	width:100%;
+
 	.work-pic {
 		display:flex;
 		justify-content:center;
@@ -315,7 +341,57 @@ p {
 /* Blog Section */
 
 .blog{
-	border-bottom:3px solid orange;
+
+	margin-bottom:50px;
+	.blog-wrap {
+		display:flex;
+		justify-content: space-between;
+
+		
+	}
+
+	.blog-detail {
+		width:30%;
+	}
+
+	.blog-pix1 {
+		background: #ffffff url("../images/latest-blog1.jpg") no-repeat center;
+	 background-size:cover;
+	width:100%;
+	 height:200px;
+	}
+
+	.blog-pix2 {
+		background: #ffffff url("../images/latest-blog2.jpg") no-repeat center;
+	 background-size:cover;
+	width:100%;
+	 height:200px;
+	}
+
+	.blog-pix3 {
+		background: #ffffff url("../images/latest-blog3.jpg") no-repeat center;
+	 background-size:cover;
+	width:100%;
+	 height:200px;
+	}
+	.date-block {
+		background-color:$aqua-color;
+		text-align:center;
+		height:66px;
+		width:66px;
+		position:relative;
+		top:120px;
+		left:-10px;
+	}
+
+	ul {
+		list-style-type:none;
+		padding-left:0;
+		li {
+			display:inline;
+			padding-right:10px;
+		}
+	}
 }
 
 /* Map Section */
@@ -339,6 +415,82 @@ p {
 /* Footer Section */
 
 footer{
+	margin-top:50px;
+
+	.footer-wrap {
+		display:flex;
+		justify-content:space-between;
+		align-items:flex-start;
+
+		h1 {
+			font-size:2.875rem;
+			font-family:$font-Montserrat;
+			font-weight:$bold;
+		}
+
+		.followers {
+			color:$text-color-dark-grey;
+		}
+	}
+
+	.footer1 {
+		color:$text-color-grey;
+		input[type="submit"]  {
+			color:$white-color;
+			background-color:$aqua-color;
+			padding:3px;
+			margin-left:-4px;
+			border:1px solid $aqua-color;
+			width:40%;
+			text-transform:uppercase;
+		}
+	}
+
+	.footer1,
+	.footer2,
+	.footer3 {
+		width:30%;
+	}
+
+	.social-media {
+		ul {
+			list-style-type:none;
+			padding-left:0;
+			li {
+				display:inline;
+				padding-right:10px;
+			}
+		}
+	}
+	.footer2 {
+		
+
+	.footer-blog {
+		color:$text-color-dark-grey;
+		.blog-pic {
+			float:left;
+			width:20%;
+
+			img {  
+			width:100%;
+			margin-top:1em;
+		}
+		}
+		.blog-text {
+			float:right;
+			width:75%;
+			.date {
+				color:$text-color-grey;
+			}
+		}
+	}
+}
+
+	.copyright {
+		margin-top:10px;
+		text-align:center;
+		border-top:1px solid $text-color-grey;
+	}
 	
 }
 
