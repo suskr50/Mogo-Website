@@ -371,7 +371,6 @@ footer {
 footer .footer-wrap {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
 }
 footer .footer-wrap h1 {
   font-size: 2.875rem;
@@ -398,6 +397,21 @@ footer .footer2,
 footer .footer3 {
   width: 30%;
 }
+footer .footer2 h2 {
+  font-size: 1.5rem;
+}
+footer .footer2 .blog-pic {
+  width: 35%;
+  float: left;
+  margin-top: 1em;
+}
+footer .footer2 .blog-pic img {
+  width: 100%;
+}
+footer .footer2 .blog-text {
+  width: 60%;
+  float: right;
+}
 footer .social-media ul {
   list-style-type: none;
   padding-left: 0;
@@ -405,24 +419,6 @@ footer .social-media ul {
 footer .social-media ul li {
   display: inline;
   padding-right: 10px;
-}
-footer .footer2 .footer-blog {
-  color: #333333;
-}
-footer .footer2 .footer-blog .blog-pic {
-  float: left;
-  width: 20%;
-}
-footer .footer2 .footer-blog .blog-pic img {
-  width: 100%;
-  margin-top: 1em;
-}
-footer .footer2 .footer-blog .blog-text {
-  float: right;
-  width: 75%;
-}
-footer .footer2 .footer-blog .blog-text .date {
-  color: #999999;
 }
 footer .copyright {
   margin-top: 10px;
