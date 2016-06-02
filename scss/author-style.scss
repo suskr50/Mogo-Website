@@ -222,6 +222,7 @@ p {
 	}
 	.services-details{
 		padding-bottom:20px;
+		
 		.services-pic {
 			float:left;
 			margin-right:3px;
@@ -498,6 +499,7 @@ footer{
 	}
 
 	.footer1 {
+		margin-top:-1.5em;
 		color:$text-color-grey;
 		input[type="submit"]  {
 			color:$white-color;
@@ -508,6 +510,13 @@ footer{
 			width:40%;
 			text-transform:uppercase;
 		}
+
+		.followers {
+			padding-top:15px;
+			padding-bottom:15px;
+			border-bottom:1px solid lightgrey;
+			margin-bottom:25px;
+		}
 	}
 
 	.footer1,
@@ -516,10 +525,14 @@ footer{
 		width:30%;
 	}
 
+	.footer3,
 	.footer2 {
 		h2 {
 			font-size:1.5rem;
 		}
+	}
+
+		.footer2 {
 
 		.blog-pic {
 			width:35%;
@@ -534,6 +547,12 @@ footer{
 			width:60%;
 			float:right;
 
+		}
+	}
+
+	.footer3{
+		img {
+			margin-top:1em;
 		}
 	}
 

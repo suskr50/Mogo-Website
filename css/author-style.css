@@ -381,6 +381,7 @@ footer .footer-wrap .followers {
   color: #333333;
 }
 footer .footer1 {
+  margin-top: -1.5em;
   color: #999999;
 }
 footer .footer1 input[type="submit"] {
@@ -392,11 +393,18 @@ footer .footer1 input[type="submit"] {
   width: 40%;
   text-transform: uppercase;
 }
+footer .footer1 .followers {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 25px;
+}
 footer .footer1,
 footer .footer2,
 footer .footer3 {
   width: 30%;
 }
+footer .footer3 h2,
 footer .footer2 h2 {
   font-size: 1.5rem;
 }
@@ -411,6 +419,9 @@ footer .footer2 .blog-pic img {
 footer .footer2 .blog-text {
   width: 60%;
   float: right;
+}
+footer .footer3 img {
+  margin-top: 1em;
 }
 footer .social-media ul {
   list-style-type: none;
