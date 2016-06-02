@@ -18,6 +18,7 @@ $light:300;
 
 body {
 	font-size:16px;
+	width:3000px;
 	
 }
 
@@ -248,22 +249,54 @@ p {
 /* Services2 Section */
 
 .services2{
-	border-bottom:3px solid orange;
+	.service2-picture {
+		width:50%;
+		float:left;
+
+	}
+	.services2-wrap {
+		width:40%;
+		float:right;
+		.service2-details {
+
+		}
+	}
 }
 
 /* Quote Section */
 
-.quote{
-	margin:150px 0;
+.testimonies{
+ margin-top:100px;
+
+
+.quote-pic {
+	width:200px;
+	height:200px;
+	float:left;
 	img {
+		width:100%;
+	}
+	 margin-bottom:100px;
+}
+.quote-text {
+	color:$text-color-grey;
+	width:70%;
+	float:right;
+	font-family:$font-Roboto;
+
+	.short-bar-left {
 		float:left;
-		width:200px;
-		height:auto;
+		margin-top:1em;
 	}
-	.quote-text {
-		width:65%;
-		float:right;
+	.quote-person {
+		padding-left:10px;
+		float:left;
+		font-size:1.5rem;
+		font-family:$font-Kaushan;
+		color:$text-color-dark-grey;
 	}
+	
+}
 	
 }
 
@@ -295,6 +328,10 @@ p {
 /* Logo Section */
 
 .logo{
+	width:100%;
+	.logo-img {
+		border:2px solid green;
+	}
 	
 }
 
